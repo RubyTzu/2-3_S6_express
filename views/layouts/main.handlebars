@@ -1,0 +1,31 @@
+<!-- ./views/layouts/main.handlebars -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Express Homework</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+    <!-- navigation -->
+    <header>
+        <div>
+            <a href="/index" class="button">回到首頁</a>
+        </div>
+        <div class="nav-list">
+            <a href="/about" class="button">About</a>
+            <a href="/portfolio" class="button">Portfolio</a>
+            <a href="/contact" class="button">Contact</a>
+        </div>
+    </header>
+    <!-- partial templates will replace the part of "body" here -->
+    {{{ body }}}
+
+</body>
+
+</html>

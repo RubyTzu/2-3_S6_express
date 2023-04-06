@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #bababa;
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    padding-left: 40px;
+    width: 95%;
+    margin: 0 auto;
+}
