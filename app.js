@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+
+
 const exphbs = require('express-handlebars')
 
 app.engine('handlebars', exphbs({
@@ -19,6 +21,8 @@ app.get('/index', (req, res) => {
 })
 
 app.get('/about', (req, res) => {
+    
+    
     res.render('about')
 })
 

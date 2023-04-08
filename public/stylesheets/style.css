@@ -36,6 +36,11 @@ header {
     background-color: #000;
 }
 
+.active {
+    background-color: #525252;
+    color: #bababa;
+}
+
 h1 {
     padding-left: 40px;
     width: 95%;
